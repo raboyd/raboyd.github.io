@@ -48,7 +48,7 @@ h1 {
 }
 
 
-.head:hover {
+.head:hover, .head:focus {
 	transform: rotate(-10deg);
     transition: 200ms;
 }
@@ -70,7 +70,7 @@ h1 {
 	margin-right: 10px; 
 } 
 
-.left_arm:hover {
+.left_arm:hover, .left_arm:focus {
 	transform: rotate(40deg);
 	transform-origin: 20px 20px;
 	transition: 500ms;
@@ -80,7 +80,7 @@ h1 {
 	margin-left: 10px; 
 } 
 
-.right_arm:hover {
+.right_arm:hover, .right_arm:focus {
 	transform: rotate(-40deg);
 	transform-origin: 20px 20px;
 	transition: 500ms;
