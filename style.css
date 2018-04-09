@@ -1,0 +1,16 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url('https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a75f85cc6f827a066097cae05e39223&auto=format&fit=crop&w=2200&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+	border-radius: 1.5rem;
+}
