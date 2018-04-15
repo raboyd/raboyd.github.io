@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Hello from './Hello';
+import App from './containers/app';
 import registerServiceWorker from './registerServiceWorker';
+import WebFont from 'webfontloader';
+import 'tachyons';
+import './index.css';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+
+WebFont.load({
+  google: {
+    families: ['Roboto Condensed', 'sans-serif']
+  }
+});
+
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
